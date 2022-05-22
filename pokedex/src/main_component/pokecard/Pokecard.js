@@ -6,7 +6,6 @@ function getCard(props){
     const {id, name, type, base_experience} = props.data
     const imgLink = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + id + ".png"
     
-    
     return(
         <div class="pokecard">
             <h2 class="pokecard-title">{name}</h2>
